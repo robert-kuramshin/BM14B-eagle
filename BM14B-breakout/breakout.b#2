@@ -160,6 +160,7 @@
 <wire x1="20.935" y1="0.635" x2="20.935" y2="32.69" width="0" layer="20"/>
 <wire x1="20.935" y1="32.69" x2="0" y2="32.69" width="0" layer="20"/>
 <wire x1="0" y1="32.69" x2="0" y2="0.635" width="0" layer="20"/>
+<rectangle x1="8.255" y1="13.335" x2="12.065" y2="19.05" layer="41"/>
 </plain>
 <libraries>
 <library name="BM14B(0.8)-24DS-0.4V">
@@ -683,6 +684,21 @@ design rules under a new name.</description>
 <contactref element="BM14B1" pad="P$13"/>
 <wire x1="10.99" y1="14.07" x2="10.99" y2="9.33" width="0.2032" layer="1"/>
 <wire x1="10.99" y1="9.33" x2="17.78" y2="2.54" width="0.2032" layer="1"/>
+</signal>
+<signal name="GND">
+<polygon width="0.2032" layer="16" spacing="2.54">
+<vertex x="0" y="0.635"/>
+<vertex x="20.955" y="0.635"/>
+<vertex x="20.955" y="32.385"/>
+<vertex x="20.955" y="33.02"/>
+<vertex x="0" y="33.02"/>
+</polygon>
+<polygon width="0.2032" layer="1" spacing="2.54">
+<vertex x="0" y="0.635"/>
+<vertex x="20.955" y="0.635"/>
+<vertex x="20.955" y="33.02"/>
+<vertex x="0" y="33.02"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
